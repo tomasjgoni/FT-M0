@@ -1,5 +1,9 @@
     h1 {
         color:blue;
+        text-align: center;
+    }
+    body {
+        text-align: center;
     }
     #thirdDiv {
         height: 600px;
@@ -7,11 +11,14 @@
         background-color: yellowgreen;
         padding: 50px;
         border-width: thick;
-        border-color: violet;
-        justify-content: center;
-        }
+        border-color: violet;      
+    }
+    ul {
+        display: inline-block;
+        text-align: center;
     img {
         width: 400px;
+        text-align: center;
         }
     #spanId {
         margin: 50px;
