@@ -16,8 +16,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioDos {
-    color: transparent;
-    border: 0px;
+    display: none;
 }
 
 
@@ -53,8 +52,27 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
-#ejercicioSiete {
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: wrap-reverse;
+
+#elementoUno {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#elementoCuatro {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#elementoDos {
+    position: absolute;
+    top: 105px;
+    left: 100px;
+}
+
+#elementoTres {
+    position: absolute;
+    bottom: 105px;
+    right: 100px;
 }
